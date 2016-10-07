@@ -1,5 +1,63 @@
 [
   {
+    "_type": "BolusWizard",
+    "bg": 159,
+    "_description": "BolusWizard 2016-10-06T19:55:14 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-10-06T19:55:14-07:00",
+    "_body": "005000645076140000000001001376",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0b0f9ec034dac03266d0",
+        "data": [
+          {
+            "amount": 0.375,
+            "age": 158
+          },
+          {
+            "amount": 1.3,
+            "age": 218
+          },
+          {
+            "amount": 1.25,
+            "age": 358
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "bg_target_high": 118,
+    "sensitivity": 80,
+    "carb_input": 0,
+    "carb_ratio": 10,
+    "food_estimate": 0,
+    "unabsorbed_insulin_total": 0.025,
+    "correction_estimate": 0.5,
+    "bg_target_low": 118,
+    "_head": "5b9f",
+    "bolus_estimate": 0.475,
+    "_date": "8eb7130610",
+    "dateString": "2016-10-06T19:55:14-07:00",
+    "medtronic": "BolusWizard",
+    "type": "medtronic",
+    "date": 1475808914000
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-06T19:55:06 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-06T19:55:06-07:00",
+    "_body": "",
+    "_head": "0a9f",
+    "amount": 159,
+    "_date": "86b7330610",
+    "dateString": "2016-10-06T19:55:06-07:00",
+    "medtronic": "CalBGForPH",
+    "type": "medtronic",
+    "date": 1475808906000
+  },
+  {
     "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-06T19:47:21 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-06T19:47:21-07:00",
