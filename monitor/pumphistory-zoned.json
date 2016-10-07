@@ -1,10 +1,36 @@
 [
   {
-    "_type": "BolusWizard", 
-    "bg": 159, 
-    "_description": "BolusWizard 2016-10-06T19:55:14 head[2], body[15] op[0x5b]", 
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-06T20:01:02 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-06T20:01:02-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "8281144610"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-06T20:01:02 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-06T20:01:02-07:00", 
+    "_body": "00", 
+    "_head": "3316", 
+    "rate": 0.55, 
+    "_date": "8281144610"
+  }, 
+  {
+    "_type": "PumpResume", 
+    "_description": "PumpResume 2016-10-06T19:55:44 head[2], body[0] op[0x1f]", 
+    "timestamp": "2016-10-06T19:55:44-07:00", 
+    "_body": "", 
+    "_head": "1f20", 
+    "_date": "acb7130610"
+  }, 
+  {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-06T19:55:14 head[8], body[0] op[0x01]", 
     "timestamp": "2016-10-06T19:55:14-07:00", 
-    "_body": "005000645076140000000001001376", 
+    "_body": "", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
@@ -28,9 +54,31 @@
         "_date": ""
       }
     ], 
+    "programmed": 0.475, 
+    "duration": 0, 
+    "amount": 0.3, 
+    "unabsorbed": 0.025, 
+    "_head": "010013000c000100", 
+    "type": "normal", 
+    "_date": "8eb7330610"
+  }, 
+  {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-10-06T19:55:38 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-10-06T19:55:38-07:00", 
+    "_body": "", 
+    "_head": "1e01", 
+    "_date": "a6b7130610"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 159, 
+    "_description": "BolusWizard 2016-10-06T19:55:14 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-06T19:55:14-07:00", 
+    "_body": "005000645076140000000001001376", 
+    "carb_input": 0, 
     "bg_target_high": 118, 
     "sensitivity": 80, 
-    "carb_input": 0, 
     "carb_ratio": 10.0, 
     "food_estimate": 0.0, 
     "unabsorbed_insulin_total": 0.025, 
