@@ -1,6 +1,33 @@
 [
   {
     "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-10T16:28:17 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-10T16:28:17-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "919c104a10",
+    "dateString": "2016-10-10T16:28:17-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476142097000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-10T16:28:17 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-10T16:28:17-07:00",
+    "_body": "00",
+    "_head": "334b",
+    "rate": 1.875,
+    "_date": "919c104a10",
+    "dateString": "2016-10-10T16:28:17-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476142097000
+  },
+  {
+    "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-10T15:58:55 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-10T15:58:55-07:00",
     "_body": "",
@@ -692,98 +719,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476124111000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-10T11:04:31 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-10T11:04:31-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "9f840b4a10",
-    "dateString": "2016-10-10T11:04:31-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476122671000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-10T11:04:31 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-10T11:04:31-07:00",
-    "_body": "00",
-    "_head": "331b",
-    "rate": 0.675,
-    "_date": "9f840b4a10",
-    "dateString": "2016-10-10T11:04:31-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476122671000
-  },
-  {
-    "_type": "Bolus",
-    "_description": "Bolus 2016-10-10T10:59:30 head[8], body[0] op[0x01]",
-    "timestamp": "2016-10-10T10:59:30-07:00",
-    "_body": "",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c050e70c0",
-        "data": [
-          {
-            "amount": 0.35,
-            "age": 112
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "programmed": 0.425,
-    "duration": 0,
-    "amount": 0.425,
-    "unabsorbed": 0.1,
-    "_head": "0100110011000400",
-    "type": "medtronic",
-    "_date": "9ebb2a0a10",
-    "dateString": "2016-10-10T10:59:30-07:00",
-    "medtronic": "Bolus",
-    "date": 1476122370000
-  },
-  {
-    "_type": "BolusWizard",
-    "bg": 152,
-    "_description": "BolusWizard 2016-10-10T10:59:30 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-10-10T10:59:30-07:00",
-    "_body": "015000645076110004000004001176",
-    "carb_input": 1,
-    "bg_target_high": 118,
-    "sensitivity": 80,
-    "carb_ratio": 10,
-    "food_estimate": 0.1,
-    "unabsorbed_insulin_total": 0.1,
-    "correction_estimate": 0.425,
-    "bg_target_low": 118,
-    "_head": "5b98",
-    "bolus_estimate": 0.425,
-    "_date": "9ebb0a0a10",
-    "dateString": "2016-10-10T10:59:30-07:00",
-    "medtronic": "BolusWizard",
-    "type": "medtronic",
-    "date": 1476122370000
-  },
-  {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2016-10-10T10:59:09 head[2], body[0] op[0x0a]",
-    "timestamp": "2016-10-10T10:59:09-07:00",
-    "_body": "",
-    "_head": "0a98",
-    "amount": 152,
-    "_date": "89bb2a0a10",
-    "dateString": "2016-10-10T10:59:09-07:00",
-    "medtronic": "CalBGForPH",
-    "type": "medtronic",
-    "date": 1476122349000
   }
 ]
