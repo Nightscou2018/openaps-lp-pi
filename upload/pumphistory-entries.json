@@ -1,6 +1,33 @@
 [
   {
     "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-10T04:52:44 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-10T04:52:44-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "acb4044a10",
+    "dateString": "2016-10-10T04:52:44-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476100364000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-10T04:52:44 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-10T04:52:44-07:00",
+    "_body": "00",
+    "_head": "3320",
+    "rate": 0.8,
+    "_date": "acb4044a10",
+    "dateString": "2016-10-10T04:52:44-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476100364000
+  },
+  {
+    "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-10T04:48:59 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-10T04:48:59-07:00",
     "_body": "",
@@ -800,75 +827,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476082732000
-  },
-  {
-    "_type": "Bolus",
-    "_description": "Bolus 2016-10-09T23:51:32 head[8], body[0] op[0x01]",
-    "timestamp": "2016-10-09T23:51:32-07:00",
-    "_body": "",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c084268c0156cd0",
-        "data": [
-          {
-            "amount": 1.65,
-            "age": 104
-          },
-          {
-            "amount": 0.525,
-            "age": 364
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "programmed": 0.575,
-    "duration": 0,
-    "amount": 0.575,
-    "unabsorbed": 0.575,
-    "_head": "0100170017001700",
-    "type": "medtronic",
-    "_date": "a0b3370910",
-    "dateString": "2016-10-09T23:51:32-07:00",
-    "medtronic": "Bolus",
-    "date": 1476082292000
-  },
-  {
-    "_type": "BolusWizard",
-    "bg": 171,
-    "_description": "BolusWizard 2016-10-09T23:51:32 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-10-09T23:51:32-07:00",
-    "_body": "0550006450761a0014000017001776",
-    "carb_input": 5,
-    "bg_target_high": 118,
-    "sensitivity": 80,
-    "carb_ratio": 10,
-    "food_estimate": 0.5,
-    "unabsorbed_insulin_total": 0.575,
-    "correction_estimate": 0.65,
-    "bg_target_low": 118,
-    "_head": "5bab",
-    "bolus_estimate": 0.575,
-    "_date": "a0b3170910",
-    "dateString": "2016-10-09T23:51:32-07:00",
-    "medtronic": "BolusWizard",
-    "type": "medtronic",
-    "date": 1476082292000
-  },
-  {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2016-10-09T23:50:55 head[2], body[0] op[0x0a]",
-    "timestamp": "2016-10-09T23:50:55-07:00",
-    "_body": "",
-    "_head": "0aab",
-    "amount": 171,
-    "_date": "b7b2370910",
-    "dateString": "2016-10-09T23:50:55-07:00",
-    "medtronic": "CalBGForPH",
-    "type": "medtronic",
-    "date": 1476082255000
   }
 ]
