@@ -1,1 +1,745 @@
-[]
+[
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T20:11:12 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T20:11:12-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "8c8b144a10"
+    },
+    "timestamp": "2016-10-10T20:11:12-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T20:11:12 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T20:11:12-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "8c8b144a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T20:11:12-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T20:07:19 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T20:07:19-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "9387144a10"
+    },
+    "timestamp": "2016-10-10T20:07:19-07:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T20:07:19 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T20:07:19-07:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "9387144a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T20:07:19-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T19:54:31 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T19:54:31-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "9fb6134a10"
+    },
+    "timestamp": "2016-10-10T19:54:31-07:00",
+    "absolute": "0.4",
+    "rate": 0.4,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T19:54:31 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T19:54:31-07:00",
+      "_body": "00",
+      "_head": "3310",
+      "rate": 0.4,
+      "_date": "9fb6134a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T19:54:31-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T19:38:36 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T19:38:36-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a4a6134a10"
+    },
+    "timestamp": "2016-10-10T19:38:36-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T19:38:36 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T19:38:36-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "a4a6134a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T19:38:36-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T19:18:48 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T19:18:48-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "b092134a10"
+    },
+    "timestamp": "2016-10-10T19:18:48-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T19:18:48 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T19:18:48-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "b092134a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T19:18:48-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2016-10-10T19:14:11 head[8], body[0] op[0x01]",
+      "timestamp": "2016-10-10T19:14:11-07:00",
+      "_body": "",
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus",
+          "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
+          "_body": "",
+          "_head": "5c05181fd0",
+          "data": [
+            {
+              "amount": 0.6,
+              "age": 287
+            }
+          ],
+          "_date": ""
+        }
+      ],
+      "programmed": 1.55,
+      "duration": 0,
+      "amount": 1.55,
+      "unabsorbed": 0,
+      "_head": "01003e003e000000",
+      "type": "normal",
+      "_date": "8b8e330a10"
+    },
+    "timestamp": "2016-10-10T19:14:11-07:00",
+    "created_at": "2016-10-10T19:14:11-07:00",
+    "carbs": "17",
+    "ratio": "10",
+    "bg": "108",
+    "glucose": "108",
+    "glucoseType": "BolusWizard",
+    "wizard": {
+      "_type": "BolusWizard",
+      "bg": 108,
+      "_description": "BolusWizard 2016-10-10T19:14:11 head[2], body[15] op[0x5b]",
+      "timestamp": "2016-10-10T19:14:11-07:00",
+      "_body": "115000645076fa0044f80000003e76",
+      "carb_input": 17,
+      "bg_target_high": 118,
+      "sensitivity": 80,
+      "carb_ratio": 10,
+      "food_estimate": 1.7,
+      "unabsorbed_insulin_total": 0,
+      "correction_estimate": 51.05,
+      "bg_target_low": 118,
+      "_head": "5b6c",
+      "bolus_estimate": 1.55,
+      "_date": "8b8e130a10"
+    },
+    "eventType": "Meal Bolus",
+    "insulin": "1.55",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 1.55\nDelivered bolus 1.55\nPercent delivered:  100%\nFood estimate 1.7\nCorrection estimate 51.05\nBolus estimate 1.55\nTarget low 118\nTarget high 118\nHypothetical glucose delta -124\nGlucose was: 108",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T19:13:48 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T19:13:48-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "b08d134a10"
+    },
+    "timestamp": "2016-10-10T19:13:48-07:00",
+    "absolute": "0.1",
+    "rate": 0.1,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T19:13:48 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T19:13:48-07:00",
+      "_body": "00",
+      "_head": "3304",
+      "rate": 0.1,
+      "_date": "b08d134a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T19:13:48-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-10T19:11:16 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-10T19:11:16-07:00",
+    "_body": "",
+    "_head": "0a6c",
+    "amount": 108,
+    "_date": "908b336a10",
+    "eventType": "BG Check",
+    "glucose": 108,
+    "glucoseType": "Finger",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-10-10T19:11:16-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T19:00:09 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T19:00:09-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "8980134a10"
+    },
+    "timestamp": "2016-10-10T19:00:09-07:00",
+    "absolute": "0.65",
+    "rate": 0.65,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T19:00:09 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T19:00:09-07:00",
+      "_body": "00",
+      "_head": "331a",
+      "rate": 0.65,
+      "_date": "8980134a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T19:00:09-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T18:52:16 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T18:52:16-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "90b4124a10"
+    },
+    "timestamp": "2016-10-10T18:52:16-07:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T18:52:16 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T18:52:16-07:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "90b4124a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T18:52:16-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T18:41:40 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T18:41:40-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a8a9124a10"
+    },
+    "timestamp": "2016-10-10T18:41:40-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T18:41:40 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T18:41:40-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "a8a9124a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T18:41:40-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T18:21:04 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T18:21:04-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "8495124a10"
+    },
+    "timestamp": "2016-10-10T18:21:04-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T18:21:04 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T18:21:04-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "8495124a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T18:21:04-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T18:04:34 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T18:04:34-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a284124a10"
+    },
+    "timestamp": "2016-10-10T18:04:34-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T18:04:34 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T18:04:34-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "a284124a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T18:04:34-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T17:58:32 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T17:58:32-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a0ba114a10"
+    },
+    "timestamp": "2016-10-10T17:58:32-07:00",
+    "absolute": "0.125",
+    "rate": 0.125,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T17:58:32 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T17:58:32-07:00",
+      "_body": "00",
+      "_head": "3305",
+      "rate": 0.125,
+      "_date": "a0ba114a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T17:58:32-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T17:34:41 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T17:34:41-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a9a2114a10"
+    },
+    "timestamp": "2016-10-10T17:34:41-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T17:34:41 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T17:34:41-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "a9a2114a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T17:34:41-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T17:15:13 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T17:15:13-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "8d8f114a10"
+    },
+    "timestamp": "2016-10-10T17:15:13-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T17:15:13 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T17:15:13-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "8d8f114a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T17:15:13-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T16:58:12 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T16:58:12-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "8cba104a10"
+    },
+    "timestamp": "2016-10-10T16:58:12-07:00",
+    "absolute": "1.25",
+    "rate": 1.25,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T16:58:12 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T16:58:12-07:00",
+      "_body": "00",
+      "_head": "3332",
+      "rate": 1.25,
+      "_date": "8cba104a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T16:58:12-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T16:51:38 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T16:51:38-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "a6b3104a10"
+    },
+    "timestamp": "2016-10-10T16:51:38-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T16:51:38 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T16:51:38-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "a6b3104a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T16:51:38-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T16:39:01 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T16:39:01-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "81a7104a10"
+    },
+    "timestamp": "2016-10-10T16:39:01-07:00",
+    "absolute": "0.8",
+    "rate": 0.8,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T16:39:01 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T16:39:01-07:00",
+      "_body": "00",
+      "_head": "3320",
+      "rate": 0.8,
+      "_date": "81a7104a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T16:39:01-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T16:28:17 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T16:28:17-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "919c104a10"
+    },
+    "timestamp": "2016-10-10T16:28:17-07:00",
+    "absolute": "1.875",
+    "rate": 1.875,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T16:28:17 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T16:28:17-07:00",
+      "_body": "00",
+      "_head": "334b",
+      "rate": 1.875,
+      "_date": "919c104a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T16:28:17-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T15:58:55 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T15:58:55-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "b7ba0f4a10"
+    },
+    "timestamp": "2016-10-10T15:58:55-07:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T15:58:55 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T15:58:55-07:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "b7ba0f4a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T15:58:55-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T15:37:07 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T15:37:07-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "87a50f4a10"
+    },
+    "timestamp": "2016-10-10T15:37:07-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T15:37:07 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T15:37:07-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "87a50f4a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T15:37:07-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T15:32:55 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T15:32:55-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "b7a00f4a10"
+    },
+    "timestamp": "2016-10-10T15:32:55-07:00",
+    "absolute": "0.925",
+    "rate": 0.925,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T15:32:55 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T15:32:55-07:00",
+      "_body": "00",
+      "_head": "3325",
+      "rate": 0.925,
+      "_date": "b7a00f4a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T15:32:55-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T15:18:47 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T15:18:47-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "af920f4a10"
+    },
+    "timestamp": "2016-10-10T15:18:47-07:00",
+    "absolute": "0.9",
+    "rate": 0.9,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T15:18:47 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T15:18:47-07:00",
+      "_body": "00",
+      "_head": "3324",
+      "rate": 0.9,
+      "_date": "af920f4a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T15:18:47-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-10-10T15:15:59 head[2], body[0] op[0x16]",
+      "timestamp": "2016-10-10T15:15:59-07:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "bb8f0f4a10"
+    },
+    "timestamp": "2016-10-10T15:15:59-07:00",
+    "absolute": "0.675",
+    "rate": 0.675,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-10-10T15:15:59 head[2], body[1] op[0x33]",
+      "timestamp": "2016-10-10T15:15:59-07:00",
+      "_body": "00",
+      "_head": "331b",
+      "rate": 0.675,
+      "_date": "bb8f0f4a10"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-10-10T15:15:59-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  }
+]
