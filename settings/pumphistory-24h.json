@@ -2,6 +2,191 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-10-11T15:13:34 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-11T15:13:34", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "a28d0f4b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-11T15:13:34 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-11T15:13:34", 
+    "_body": "00", 
+    "_head": "331a", 
+    "rate": 0.65, 
+    "_date": "a28d0f4b10"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 39600000, 
+    "_description": "BasalProfileStart 2016-10-11T14:47:47 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-10-11T14:47:47", 
+    "_body": "162000", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.8, 
+    "_date": "afaf0e0b10"
+  }, 
+  {
+    "programmed": 0.8, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-11T14:19:54 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-11T14:19:54", 
+    "_body": "", 
+    "_head": "0100200020000000", 
+    "amount": 0.8, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "b6932e0b10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 165, 
+    "bg_target_high": 118, 
+    "_description": "BolusWizard 2016-10-11T14:19:54 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-11T14:19:54", 
+    "_body": "005000645076170000000000001776", 
+    "_head": "5ba5", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.575, 
+    "_date": "b6930e0b10", 
+    "bolus_estimate": 0.575, 
+    "bg_target_low": 118, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 39600000, 
+    "_description": "BasalProfileStart 2016-10-11T14:19:14 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-10-11T14:19:14", 
+    "_body": "162000", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.8, 
+    "_date": "8e930e0b10"
+  }, 
+  {
+    "_type": "ChangeBasalProfile_new_profile", 
+    "_description": "ChangeBasalProfile_new_profile 2016-10-11T14:19:13 head[2], body[145] op[0x09]", 
+    "timestamp": "2016-10-11T14:19:13", 
+    "_body": "001e00061b0016200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
+    "_head": "0903", 
+    "rate": "offset", 
+    "_date": "8d930e0b10"
+  }, 
+  {
+    "_type": "ChangeBasalProfile_old_profile", 
+    "_description": "ChangeBasalProfile_old_profile 2016-10-11T14:19:13 head[2], body[145] op[0x08]", 
+    "timestamp": "2016-10-11T14:19:13", 
+    "_body": "001d00061a00161c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
+    "_head": "0803", 
+    "rate": "offset", 
+    "_date": "8d930e0b10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-10-11T14:17:47 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-11T14:17:47", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "af910e4b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-11T14:17:47 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-11T14:17:47", 
+    "_body": "00", 
+    "_head": "331a", 
+    "rate": 0.65, 
+    "_date": "af910e4b10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 165, 
+    "bg_target_high": 118, 
+    "_description": "BolusWizard 2016-10-11T14:17:37 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-11T14:17:37", 
+    "_body": "005000645076170000000000001776", 
+    "_head": "5ba5", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.575, 
+    "_date": "a5910e0b10", 
+    "bolus_estimate": 0.575, 
+    "bg_target_low": 118, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-11T14:17:08 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-11T14:17:08", 
+    "_body": "", 
+    "_head": "0aa5", 
+    "amount": 165, 
+    "_date": "88912e0b10"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 39600000, 
+    "_description": "BasalProfileStart 2016-10-11T12:50:08 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-10-11T12:50:08", 
+    "_body": "161c00", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.7, 
+    "_date": "88b20c0b10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-10-11T12:20:08 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-11T12:20:08", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "88940c4b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-11T12:20:08 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-11T12:20:08", 
+    "_body": "00", 
+    "_head": "3304", 
+    "rate": 0.1, 
+    "_date": "88940c4b10"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "cba570", 
+    "_description": "BGReceived 2016-10-11T12:19:11 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-10-11T12:19:11", 
+    "_body": "cba570", 
+    "_head": "3f13", 
+    "amount": 152, 
+    "_date": "8b930c6b10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-11T12:19:11 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-11T12:19:11", 
+    "_body": "", 
+    "_head": "0a98", 
+    "amount": 152, 
+    "_date": "8b932c6b10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-10-11T12:08:35 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-11T12:08:35", 
     "_body": "", 
@@ -2409,335 +2594,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "96a00c4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T12:08:05 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T12:08:05", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "85880c4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T12:08:05 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T12:08:05", 
-    "_body": "00", 
-    "_head": "332c", 
-    "rate": 1.1, 
-    "_date": "85880c4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T11:52:10 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T11:52:10", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "8ab40b4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T11:52:10 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T11:52:10", 
-    "_body": "00", 
-    "_head": "3325", 
-    "rate": 0.925, 
-    "_date": "8ab40b4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T11:45:53 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T11:45:53", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "b5ad0b4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T11:45:53 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T11:45:53", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "b5ad0b4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T11:28:31 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T11:28:31", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "9f9c0b4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T11:28:31 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T11:28:31", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "9f9c0b4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T11:04:31 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T11:04:31", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "9f840b4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T11:04:31 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T11:04:31", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "9f840b4a10"
-  }, 
-  {
-    "programmed": 0.425, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-10-10T10:59:30 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-10-10T10:59:30", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.35, 
-            "age": 112
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c050e70c0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100110011000400", 
-    "amount": 0.425, 
-    "unabsorbed": 0.1, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "9ebb2a0a10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 152, 
-    "bg_target_high": 118, 
-    "_description": "BolusWizard 2016-10-10T10:59:30 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-10-10T10:59:30", 
-    "_body": "015000645076110004000004001176", 
-    "_head": "5b98", 
-    "unabsorbed_insulin_total": 0.1, 
-    "correction_estimate": 0.425, 
-    "_date": "9ebb0a0a10", 
-    "bolus_estimate": 0.425, 
-    "bg_target_low": 118, 
-    "carb_ratio": 10.0, 
-    "food_estimate": 0.1, 
-    "carb_input": 1, 
-    "sensitivity": 80
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-10T10:59:09 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-10T10:59:09", 
-    "_body": "", 
-    "_head": "0a98", 
-    "amount": 152, 
-    "_date": "89bb2a0a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T10:56:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T10:56:50", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "b2b80a4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T10:56:50 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T10:56:50", 
-    "_body": "00", 
-    "_head": "332d", 
-    "rate": 1.125, 
-    "_date": "b2b80a4a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T10:49:10 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T10:49:10", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "8ab10a4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T10:49:10 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T10:49:10", 
-    "_body": "00", 
-    "_head": "333c", 
-    "rate": 1.5, 
-    "_date": "8ab10a4a10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 10800000, 
-    "_description": "BasalProfileStart 2016-10-10T09:58:24 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-10-10T09:58:24", 
-    "_body": "061a00", 
-    "profile_index": 1, 
-    "_head": "7b01", 
-    "rate": 0.65, 
-    "_date": "98ba090a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T09:28:24 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T09:28:24", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "989c094a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T09:28:24 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T09:28:24", 
-    "_body": "00", 
-    "_head": "331a", 
-    "rate": 0.65, 
-    "_date": "989c094a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T09:19:40 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T09:19:40", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "a893094a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T09:19:40 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T09:19:40", 
-    "_body": "00", 
-    "_head": "3310", 
-    "rate": 0.4, 
-    "_date": "a893094a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T09:15:15 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T09:15:15", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "8f8f094a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T09:15:15 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T09:15:15", 
-    "_body": "00", 
-    "_head": "3325", 
-    "rate": 0.925, 
-    "_date": "8f8f094a10"
-  }, 
-  {
-    "programmed": 0.35, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-10-10T09:13:39 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-10-10T09:13:39", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.35, 
-            "age": 456
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c050ec8d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "01000e000e000000", 
-    "amount": 0.35, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "a78d290a10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 122, 
-    "bg_target_high": 118, 
-    "_description": "BolusWizard 2016-10-10T09:13:39 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-10-10T09:13:39", 
-    "_body": "03500064507602000c000000000e76", 
-    "_head": "5b7a", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.05, 
-    "_date": "a78d090a10", 
-    "bolus_estimate": 0.35, 
-    "bg_target_low": 118, 
-    "carb_ratio": 10.0, 
-    "food_estimate": 0.3, 
-    "carb_input": 3, 
-    "sensitivity": 80
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-10T09:13:30 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-10T09:13:30", 
-    "_body": "", 
-    "_head": "0a7a", 
-    "amount": 122, 
-    "_date": "9e8d290a10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-10T09:08:41 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-10T09:08:41", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "a988094a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-10T09:08:41 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-10T09:08:41", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "a988094a10"
   }
 ]
