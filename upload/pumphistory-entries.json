@@ -1,5 +1,19 @@
 [
   {
+    "_type": "Prime",
+    "_description": "Prime 2016-10-12T12:33:48 head[5], body[0] op[0x03]",
+    "timestamp": "2016-10-12T12:33:48-07:00",
+    "_body": "",
+    "_head": "0300030003",
+    "amount": 0.3,
+    "fixed": 0.3,
+    "type": "medtronic",
+    "_date": "b0a10c0c10",
+    "dateString": "2016-10-12T12:33:48-07:00",
+    "medtronic": "Prime",
+    "date": 1476300828000
+  },
+  {
     "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-12T12:32:03 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-12T12:32:03-07:00",
