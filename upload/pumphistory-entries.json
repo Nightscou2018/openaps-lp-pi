@@ -1,5 +1,79 @@
 [
   {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-10-13T14:07:56 head[8], body[0] op[0x01]",
+    "timestamp": "2016-10-13T14:07:56-07:00",
+    "_body": "",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0b08468074648066aa80",
+        "data": [
+          {
+            "amount": 0.2,
+            "age": 70
+          },
+          {
+            "amount": 2.9,
+            "age": 100
+          },
+          {
+            "amount": 2.55,
+            "age": 170
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "programmed": 1.5,
+    "duration": 0,
+    "amount": 1.5,
+    "unabsorbed": 0.45,
+    "_head": "01003c003c001200",
+    "type": "medtronic",
+    "_date": "b8872e0d10",
+    "dateString": "2016-10-13T14:07:56-07:00",
+    "medtronic": "Bolus",
+    "date": 1476392876000
+  },
+  {
+    "_type": "BolusWizard",
+    "bg": 179,
+    "_description": "BolusWizard 2016-10-13T14:07:56 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-10-13T14:07:56-07:00",
+    "_body": "0050002828644e0000000012003c64",
+    "carb_input": 0,
+    "bg_target_high": 100,
+    "sensitivity": 40,
+    "carb_ratio": 4,
+    "food_estimate": 0,
+    "unabsorbed_insulin_total": 0.45,
+    "correction_estimate": 1.95,
+    "bg_target_low": 100,
+    "_head": "5bb3",
+    "bolus_estimate": 1.5,
+    "_date": "b8870e0d10",
+    "dateString": "2016-10-13T14:07:56-07:00",
+    "medtronic": "BolusWizard",
+    "type": "medtronic",
+    "date": 1476392876000
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-13T14:07:49 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-13T14:07:49-07:00",
+    "_body": "",
+    "_head": "0ab3",
+    "amount": 179,
+    "_date": "b1872e0d10",
+    "dateString": "2016-10-13T14:07:49-07:00",
+    "medtronic": "CalBGForPH",
+    "type": "medtronic",
+    "date": 1476392869000
+  },
+  {
     "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-13T14:02:38 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-13T14:02:38-07:00",
