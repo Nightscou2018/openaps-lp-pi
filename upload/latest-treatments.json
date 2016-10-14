@@ -1,0 +1,76 @@
+[
+  {
+    "carbs": "0",
+    "ratio": "4",
+    "bg": "157",
+    "glucose": "157",
+    "glucoseType": "BolusWizard",
+    "wizard": {
+      "_type": "BolusWizard",
+      "bg": 157,
+      "_description": "BolusWizard 2016-10-14T02:19:38 head[2], body[15] op[0x5b]",
+      "timestamp": "2016-10-14T02:19:38-07:00",
+      "_body": "005000282864380000000000003864",
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus",
+          "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]",
+          "_body": "",
+          "_head": "5c0e1ec0801006901210902ea690",
+          "data": [
+            {
+              "amount": 0.75,
+              "age": 192
+            },
+            {
+              "amount": 0.4,
+              "age": 262
+            },
+            {
+              "amount": 0.45,
+              "age": 272
+            },
+            {
+              "amount": 1.15,
+              "age": 422
+            }
+          ],
+          "_date": ""
+        }
+      ],
+      "bg_target_high": 100,
+      "sensitivity": 40,
+      "carb_input": 0,
+      "carb_ratio": 4,
+      "food_estimate": 0,
+      "unabsorbed_insulin_total": 0,
+      "correction_estimate": 1.4,
+      "bg_target_low": 100,
+      "_head": "5b9d",
+      "bolus_estimate": 1.4,
+      "_date": "a693020e10"
+    },
+    "timestamp": "2016-10-14T02:19:38-07:00",
+    "created_at": "2016-10-14T02:19:38-07:00",
+    "eventType": "<none>",
+    "insulin": 0,
+    "notes": "Food estimate 0\nCorrection estimate 1.4\nBolus estimate 1.4\nTarget low 100\nTarget high 100\nHypothetical glucose delta 0\nGlucose was: 157",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
+    "enteredBy": "openaps://medtronic/523"
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-14T02:19:32 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-14T02:19:32-07:00",
+    "_body": "",
+    "_head": "0a9d",
+    "amount": 157,
+    "_date": "a093220e10",
+    "eventType": "BG Check",
+    "glucose": 157,
+    "glucoseType": "Finger",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-10-14T02:19:32-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  }
+]
