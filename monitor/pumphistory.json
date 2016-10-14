@@ -2,6 +2,113 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-10-14T15:31:06 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-14T15:31:06", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "869f0f4e10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-14T15:31:06 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-14T15:31:06", 
+    "_body": "00", 
+    "_head": "3392", 
+    "rate": 3.65, 
+    "_date": "869f0f4e10"
+  }, 
+  {
+    "programmed": 2.45, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-14T15:28:07 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-14T15:28:07", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.2, 
+            "age": 271
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05300f90", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100620062000000", 
+    "amount": 2.45, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "879c2f0e10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 118, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-10-14T15:28:07 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-14T15:28:07", 
+    "_body": "085000282864120050000000006264", 
+    "_head": "5b76", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.45, 
+    "_date": "879c0f0e10", 
+    "bolus_estimate": 2.45, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.2, 
+            "age": 270
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05300e90", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 100, 
+    "carb_ratio": 4.0, 
+    "food_estimate": 2.0, 
+    "carb_input": 8, 
+    "sensitivity": 40
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 118, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-10-14T15:27:52 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-14T15:27:52", 
+    "_body": "0c5000282864120078000000008a64", 
+    "_head": "5b76", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.45, 
+    "_date": "b49b0f0e10", 
+    "bolus_estimate": 3.45, 
+    "bg_target_low": 100, 
+    "carb_ratio": 4.0, 
+    "food_estimate": 3.0, 
+    "carb_input": 12, 
+    "sensitivity": 40
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-14T15:27:29 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-14T15:27:29", 
+    "_body": "", 
+    "_head": "0a76", 
+    "amount": 118, 
+    "_date": "9d9b2f0e10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-10-14T15:20:07 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-14T15:20:07", 
     "_body": "", 
@@ -666,33 +773,5 @@
     "_head": "3316", 
     "rate": 0.55, 
     "_date": "ada20a4e10"
-  }, 
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2016-10-14T10:30:57 head[2], body[0] op[0x34]", 
-    "timestamp": "2016-10-14T10:30:57", 
-    "_body": "", 
-    "_head": "347d", 
-    "amount": 12.5, 
-    "_date": "b99e0a0e10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-10-14T10:27:44 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-14T10:27:44", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "ac9b0a4e10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-14T10:27:44 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-14T10:27:44", 
-    "_body": "00", 
-    "_head": "3337", 
-    "rate": 1.375, 
-    "_date": "ac9b0a4e10"
   }
 ]
