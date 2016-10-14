@@ -1,6 +1,46 @@
 [
   {
     "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-14T03:40:47 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-14T03:40:47-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "afa8034e10",
+    "dateString": "2016-10-14T03:40:47-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476441647000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-14T03:40:47 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-14T03:40:47-07:00",
+    "_body": "00",
+    "_head": "3340",
+    "rate": 1.6,
+    "_date": "afa8034e10",
+    "dateString": "2016-10-14T03:40:47-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476441647000
+  },
+  {
+    "_type": "LowReservoir",
+    "_description": "LowReservoir 2016-10-14T03:39:22 head[2], body[0] op[0x34]",
+    "timestamp": "2016-10-14T03:39:22-07:00",
+    "_body": "",
+    "_head": "34fa",
+    "amount": 25,
+    "_date": "96a7030e10",
+    "dateString": "2016-10-14T03:39:22-07:00",
+    "medtronic": "LowReservoir",
+    "type": "medtronic",
+    "date": 1476441562000
+  },
+  {
+    "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-14T03:30:54 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-14T03:30:54-07:00",
     "_body": "",
@@ -1074,32 +1114,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476424017000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-13T22:33:19 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-13T22:33:19-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "93a1164d10",
-    "dateString": "2016-10-13T22:33:19-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476423199000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-13T22:33:19 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-13T22:33:19-07:00",
-    "_body": "00",
-    "_head": "3394",
-    "rate": 3.7,
-    "_date": "93a1164d10",
-    "dateString": "2016-10-13T22:33:19-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476423199000
   }
 ]
