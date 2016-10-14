@@ -1,6 +1,33 @@
 [
   {
     "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-14T00:54:15 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-14T00:54:15-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "8fb6004e10",
+    "dateString": "2016-10-14T00:54:15-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476431655000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-14T00:54:15 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-14T00:54:15-07:00",
+    "_body": "00",
+    "_head": "3368",
+    "rate": 2.6,
+    "_date": "8fb6004e10",
+    "dateString": "2016-10-14T00:54:15-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476431655000
+  },
+  {
+    "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-14T00:46:44 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-14T00:46:44-07:00",
     "_body": "",
@@ -758,32 +785,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476413957000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-13T19:49:32 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-13T19:49:32-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "a0b1134d10",
-    "dateString": "2016-10-13T19:49:32-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476413372000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-13T19:49:32 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-13T19:49:32-07:00",
-    "_body": "00",
-    "_head": "33d3",
-    "rate": 5.275,
-    "_date": "a0b1134d10",
-    "dateString": "2016-10-13T19:49:32-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476413372000
   }
 ]
