@@ -1,5 +1,24 @@
 [
   {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-10-15T13:05:55 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-10-15T13:05:55-07:00", 
+    "_body": "c58c6e", 
+    "_head": "3f05", 
+    "amount": 45, 
+    "link": "c58c6e", 
+    "_date": "b785ad6f10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-15T13:05:55 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-15T13:05:55-07:00", 
+    "_body": "", 
+    "_head": "0a2d", 
+    "amount": 45, 
+    "_date": "b7852d6f10"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-10-15T12:10:29 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-10-15T12:10:29-07:00", 
@@ -656,62 +675,5 @@
     "_head": "3340", 
     "rate": 1.6, 
     "_date": "9887084f10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-15T07:40:48 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-15T07:40:48-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "b0a8074f10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-15T07:40:48 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-15T07:40:48-07:00", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "b0a8074f10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-15T07:28:29 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-15T07:28:29-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "9d9c074f10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-15T07:28:29 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-15T07:28:29-07:00", 
-    "_body": "00", 
-    "_head": "3328", 
-    "rate": 1.0, 
-    "_date": "9d9c074f10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-15T07:24:18 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-15T07:24:18-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "9298074f10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-15T07:24:18 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-15T07:24:18-07:00", 
-    "_body": "00", 
-    "_head": "3304", 
-    "rate": 0.1, 
-    "_date": "9298074f10"
   }
 ]
