@@ -1,5 +1,59 @@
 [
   {
+    "_type": "BGReceived",
+    "_description": "BGReceived 2016-10-15T11:43:09 head[2], body[3] op[0x3f]",
+    "timestamp": "2016-10-15T11:43:09-07:00",
+    "_body": "cba570",
+    "_head": "3f0e",
+    "amount": 112,
+    "link": "cba570",
+    "_date": "89ab0b6f10",
+    "dateString": "2016-10-15T11:43:09-07:00",
+    "medtronic": "BGReceived",
+    "type": "medtronic",
+    "date": 1476556989000
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-15T11:43:09 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-15T11:43:09-07:00",
+    "_body": "",
+    "_head": "0a70",
+    "amount": 112,
+    "_date": "89ab2b6f10",
+    "dateString": "2016-10-15T11:43:09-07:00",
+    "medtronic": "CalBGForPH",
+    "type": "medtronic",
+    "date": 1476556989000
+  },
+  {
+    "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-15T11:40:29 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-15T11:40:29-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "9da80b4f10",
+    "dateString": "2016-10-15T11:40:29-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476556829000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-15T11:40:29 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-15T11:40:29-07:00",
+    "_body": "00",
+    "_head": "3300",
+    "rate": 0,
+    "_date": "9da80b4f10",
+    "dateString": "2016-10-15T11:40:29-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476556829000
+  },
+  {
     "_type": "OldBolusWizardChange",
     "_description": "OldBolusWizardChange 2016-10-15T11:32:37 head[2], body[137] op[0x5a]",
     "timestamp": "2016-10-15T11:32:37-07:00",
@@ -916,32 +970,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476539372000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-15T06:35:28 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-15T06:35:28-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "9ca3064f10",
-    "dateString": "2016-10-15T06:35:28-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476538528000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-15T06:35:28 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-15T06:35:28-07:00",
-    "_body": "00",
-    "_head": "332c",
-    "rate": 1.1,
-    "_date": "9ca3064f10",
-    "dateString": "2016-10-15T06:35:28-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476538528000
   }
 ]
