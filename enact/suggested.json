@@ -1,0 +1,1 @@
+{"temp":"absolute","bg":142,"tick":"+3","eventualBG":139,"snoozeBG":139,"predBGs":{"IOB":[142,144,144,143,141,137,133,128,125,121,118,116,114,114,113,113,113,112]},"COB":0,"IOB":-0.405,"reason":"COB: 0, Dev: -19, BGI: 4.55, ISF: 42, Target: 102; Eventual BG 139 > 102 but Min. Delta 1.31 < Exp. Delta 1.5; setting current basal of 1.9 as temp","duration":30,"rate":1.9}
