@@ -1,0 +1,39 @@
+{
+  "bg": 135, 
+  "temp": "absolute", 
+  "snoozeBG": 126, 
+  "recieved": true, 
+  "predBGs": {
+    "IOB": [
+      135, 
+      132, 
+      127, 
+      121, 
+      114, 
+      105, 
+      95, 
+      85, 
+      77, 
+      70, 
+      65, 
+      61, 
+      59, 
+      59, 
+      60, 
+      64, 
+      69, 
+      76, 
+      85, 
+      94, 
+      95
+    ]
+  }, 
+  "rate": 1.1, 
+  "reason": "COB: 0, Dev: -8, BGI: -1.77, ISF: 47, Target: 107; Eventual BG 60 < 107, bolus snooze: eventual BG range 60-126; setting current basal of 1.1 as temp", 
+  "COB": 0, 
+  "eventualBG": 60, 
+  "timestamp": "2016-10-15T03:46:06.877167", 
+  "duration": 30, 
+  "tick": -2, 
+  "IOB": 1.443
+}
