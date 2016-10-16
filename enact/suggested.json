@@ -1,1 +1,0 @@
-{"temp":"absolute","bg":140,"tick":-8,"eventualBG":85,"snoozeBG":85,"predBGs":{"IOB":[140,131,122,115,108,103,99,96,94,94,94,96,98,100,102,104,105,106,106,105,105,103,102,99,97,95,93,92,91]},"COB":0,"IOB":-0.102,"reason":"COB: 0, Dev: -61, BGI: 0.22, ISF: 75, Target: 110; Eventual BG 85 < 110, setting -0.55U/hr, but 23m left and 0 ~ req 0U/hr: no action required"}
