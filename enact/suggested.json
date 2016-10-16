@@ -1,1 +1,0 @@
-{"temp":"absolute","bg":127,"tick":-5,"eventualBG":121,"snoozeBG":121,"predBGs":{"IOB":[127,122,118,115,113,111,110,109,108,108,107,107,107,107,107,107,107,106,106,105,104,103,103,102]},"COB":0,"IOB":-0.154,"reason":"COB: 0, Dev: -15, BGI: -0.67, ISF: 75, Target: 110; Eventual BG 121 > 110 but Min. Delta -5.00 < Exp. Delta -1.6, temp 0.575 ~ req 0.6U/hr"}
