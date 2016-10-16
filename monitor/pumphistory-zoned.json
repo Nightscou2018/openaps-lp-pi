@@ -1,5 +1,14 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-15T17:43:49 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-15T17:43:49-07:00", 
+    "_body": "", 
+    "_head": "0a9a", 
+    "amount": 154, 
+    "_date": "b1ab310f10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-10-15T17:38:44 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-15T17:38:44-07:00", 
