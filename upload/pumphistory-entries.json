@@ -1,6 +1,33 @@
 [
   {
     "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-10-16T16:44:08 head[2], body[0] op[0x16]",
+    "timestamp": "2016-10-16T16:44:08-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "88ac105010",
+    "dateString": "2016-10-16T16:44:08-07:00",
+    "medtronic": "TempBasalDuration",
+    "type": "medtronic",
+    "date": 1476661448000
+  },
+  {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-10-16T16:44:08 head[2], body[1] op[0x33]",
+    "timestamp": "2016-10-16T16:44:08-07:00",
+    "_body": "00",
+    "_head": "3300",
+    "rate": 0,
+    "_date": "88ac105010",
+    "dateString": "2016-10-16T16:44:08-07:00",
+    "medtronic": "TempBasal",
+    "type": "medtronic",
+    "date": 1476661448000
+  },
+  {
+    "_type": "TempBasalDuration",
     "_description": "TempBasalDuration 2016-10-16T16:30:16 head[2], body[0] op[0x16]",
     "timestamp": "2016-10-16T16:30:16-07:00",
     "_body": "",
@@ -461,59 +488,5 @@
     "medtronic": "TempBasal",
     "type": "medtronic",
     "date": 1476644886000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-16T11:42:48 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-16T11:42:48-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "b0aa0b5010",
-    "dateString": "2016-10-16T11:42:48-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476643368000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-16T11:42:48 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-16T11:42:48-07:00",
-    "_body": "00",
-    "_head": "3300",
-    "rate": 0,
-    "_date": "b0aa0b5010",
-    "dateString": "2016-10-16T11:42:48-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476643368000
-  },
-  {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-10-16T11:33:04 head[2], body[0] op[0x16]",
-    "timestamp": "2016-10-16T11:33:04-07:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "84a10b5010",
-    "dateString": "2016-10-16T11:33:04-07:00",
-    "medtronic": "TempBasalDuration",
-    "type": "medtronic",
-    "date": 1476642784000
-  },
-  {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-10-16T11:33:04 head[2], body[1] op[0x33]",
-    "timestamp": "2016-10-16T11:33:04-07:00",
-    "_body": "00",
-    "_head": "3320",
-    "rate": 0.8,
-    "_date": "84a10b5010",
-    "dateString": "2016-10-16T11:33:04-07:00",
-    "medtronic": "TempBasal",
-    "type": "medtronic",
-    "date": 1476642784000
   }
 ]
