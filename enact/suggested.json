@@ -1,0 +1,1 @@
+{"temp":"absolute","bg":212,"tick":-1,"eventualBG":194,"snoozeBG":194,"predBGs":{"IOB":[212,209,207,206,206,207,208,211,214,219,224,230,235,239,242,244,244,242,241,241,241,241,241,240,240,240,239]},"COB":0,"IOB":0.391,"reason":"COB: 0, Dev: 9, BGI: -4.29, ISF: 70, Target: 107; Eventual BG 194 >= 107, temp 1.175<3.1U/hr","duration":30,"rate":3.1}
