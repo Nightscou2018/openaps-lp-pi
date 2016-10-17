@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "_type": "SelectBasalProfile",
+    "_description": "SelectBasalProfile 2016-10-16T22:34:53 head[2], body[0] op[0x14]",
+    "timestamp": "2016-10-16T22:34:53-07:00",
+    "_body": "",
+    "_head": "1402",
+    "_date": "b5a2161010",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/SelectBasalProfile",
+    "created_at": "2016-10-16T22:34:53-07:00",
+    "enteredBy": "openaps://medtronic/523",
+    "eventType": "Note",
+    "notes": "SelectBasalProfile 523 "
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-10-16T22:32:47 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-10-16T22:32:47-07:00",
+    "_body": "",
+    "_head": "0a56",
+    "amount": 86,
+    "_date": "afa0361010",
+    "eventType": "BG Check",
+    "glucose": 86,
+    "glucoseType": "Finger",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-10-16T22:32:47-07:00",
+    "enteredBy": "openaps://medtronic/523"
+  }
+]
