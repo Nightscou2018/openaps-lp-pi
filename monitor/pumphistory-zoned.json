@@ -1,5 +1,53 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-17T00:02:07 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-17T00:02:07-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "8782005110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-17T00:02:07 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-17T00:02:07-07:00", 
+    "_body": "00", 
+    "_head": "3320", 
+    "rate": 0.8, 
+    "_date": "8782005110"
+  }, 
+  {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-10-17T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-10-17T00:00:00-07:00", 
+    "_body": "05009586aa0a000004f503143e01e126004d00780039013000000202040000000000000000000056cf0000000000000000", 
+    "_head": "6e", 
+    "valid_date": "2016-10-16", 
+    "_date": "b010"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-10-17T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-10-17T00:00:00-07:00", 
+    "_body": "000000", 
+    "_head": "07000004f5", 
+    "valid_date": "2016-10-16", 
+    "_date": "b010"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "_description": "BasalProfileStart 2016-10-17T00:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-10-17T00:00:00-07:00", 
+    "_body": "001e00", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.75, 
+    "offset": 0, 
+    "_date": "8080001110"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-10-16T23:27:23 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-10-16T23:27:23-07:00", 
@@ -789,81 +837,5 @@
     "_head": "3355", 
     "rate": 2.125, 
     "_date": "9a88135010"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-16T18:47:23 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-16T18:47:23-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "97af125010"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-16T18:47:23 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-16T18:47:23-07:00", 
-    "_body": "00", 
-    "_head": "3302", 
-    "rate": 0.05, 
-    "_date": "97af125010"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-16T18:40:39 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-16T18:40:39-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "a7a8125010"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-16T18:40:39 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-16T18:40:39-07:00", 
-    "_body": "00", 
-    "_head": "3350", 
-    "rate": 2.0, 
-    "_date": "a7a8125010"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-16T18:36:04 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-16T18:36:04-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "84a4125010"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-16T18:36:04 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-16T18:36:04-07:00", 
-    "_body": "00", 
-    "_head": "3324", 
-    "rate": 0.9, 
-    "_date": "84a4125010"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-16T18:29:01 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-16T18:29:01-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "819d125010"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-16T18:29:01 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-16T18:29:01-07:00", 
-    "_body": "00", 
-    "_head": "3341", 
-    "rate": 1.625, 
-    "_date": "819d125010"
   }
 ]
