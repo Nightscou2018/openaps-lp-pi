@@ -1,5 +1,27 @@
 [
   {
+    "_id": "5804eb1d18a6c1577fca019d",
+    "sgv": 97,
+    "date": 1476717298000,
+    "dateString": "2016-10-17T15:14:58.000Z",
+    "trend": 5,
+    "direction": "FortyFiveDown",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 97
+  },
+  {
+    "_id": "5804e9f118a6c1577fca019c",
+    "sgv": 117,
+    "date": 1476716997000,
+    "dateString": "2016-10-17T15:09:57.000Z",
+    "trend": 4,
+    "direction": "Flat",
+    "device": "share2",
+    "type": "sgv",
+    "glucose": 117
+  },
+  {
     "_id": "5804e8c618a6c1577fca0198",
     "sgv": 121,
     "date": 1476716698000,
@@ -10976,27 +10998,5 @@
     "device": "share2",
     "type": "sgv",
     "glucose": 83
-  },
-  {
-    "_id": "58001cbe18a6c1577fc9f82b",
-    "sgv": 83,
-    "date": 1476402306000,
-    "dateString": "2016-10-13T23:45:06.000Z",
-    "trend": 4,
-    "direction": "Flat",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 83
-  },
-  {
-    "_id": "58001b9218a6c1577fc9f82a",
-    "sgv": 82,
-    "date": 1476402005000,
-    "dateString": "2016-10-13T23:40:05.000Z",
-    "trend": 4,
-    "direction": "Flat",
-    "device": "share2",
-    "type": "sgv",
-    "glucose": 82
   }
 ]
